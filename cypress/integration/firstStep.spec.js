@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+// / <reference types="cypress" />
 
 describe('Our first suite', () => {
 
@@ -57,7 +57,7 @@ describe('Our first suite', () => {
       .find('[type="Email"]')
   })
 
-  it.only('then and wrap methods', () => {
+  it('then and wrap methods', () => {
     cy.visit('/')
     cy.contains('Forms').click()
     cy.contains('Form Layouts').click()
